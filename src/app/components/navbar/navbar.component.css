@@ -1,0 +1,96 @@
+.navbar{
+    height:50px;
+    background-color: rgb(2, 80, 54);
+}
+
+.close{
+        position: absolute; /* Use absolute positioning */
+        right: 0; /* Align the icon to the right edge */
+       background-color: tomato;
+       height: 50px;
+       width: 50px;
+       color: aliceblue;
+}
+
+.head{
+    color: azure;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.example-container {
+    width: 50px;
+    height: 100%;
+    background-color:rgb(2, 80, 54);
+  }
+  .example-container .chat, .phn{
+    margin:30px 12px;
+    color: aliceblue;
+} 
+
+.body {
+    display: flex;  
+    height: 100vh;
+  }
+  
+.list{
+    background-color: rgba(6, 92, 63, 0.667);
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.list ul{
+    list-style-type: none;
+  padding: 0;
+}
+
+.list li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .list img {
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .list{
+    font-size: 18px;
+    color: #191818;
+    font-weight: bold;
+  }
+
+  .search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #fff; */
+    padding: 10px;
+    /* border-radius: 15px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .search-box {
+    padding: 8px;
+    width: 200px;
+    border: none;
+    border-radius: 30px 0 0 30px;
+    outline: none;
+    font-size: 12px;
+  }
+
+  .search {
+    padding: 8px 20px;
+    /* background-color: #007BFF; */
+    color: #000000;
+    border: none;
+    border-radius: 0 30px 30px 0;
+    cursor: pointer;
+    /* font-size: 16px; */
+  }
+  
+  .search:hover {
+    background-color: rgba(6, 92, 63, 0.667);
+  }
